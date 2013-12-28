@@ -1,0 +1,8 @@
+{% assign post=include.post %}
+
+<li>
+    <small>{{ post.date | date: '%d %b, %Y' }} &raquo;</small>
+    <a href="{{ post.url }}"><strong>{{ post.title }}</strong></a>
+
+    <p>{{ post.excerpt }}</p>
+</li>

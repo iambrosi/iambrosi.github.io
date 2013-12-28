@@ -1,0 +1,15 @@
+---
+layout: default
+title: Últimos posts
+---
+
+<ul class="list-unstyled">
+    {% for post in site.posts limit 5 %}
+    <li>
+        <small>{{ post.date | date: '%d %b, %Y' }} &raquo;</small>
+        <a href="{{ post.url }}"><strong>{{ post.title }}</strong></a>
+
+        <p>{{ post.excerpt }}</p>
+    </li>
+    {% endfor %}
+</ul>

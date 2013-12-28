@@ -1,0 +1,56 @@
+name:      Ismael Ambrosi
+sub_title: Estaba aburrido y me armé blog.
+
+safe:        true
+permalink:   /blog/:year/:month/:day/:title/
+highlighter: pygments
+markdown:    redcarpet
+exclude:     [ README.md, Gemfile ]
+
+me:
+  name:      Ismael Ambrosi
+  email:     ismaambrosi@gmail.com
+  github:    iambrosi
+  linkedin:  ismaelambrosi
+  twitter:   iambrosi
+  instagram: iambrosi
+  gravatar:  1fe25dce85a62c717339dfd864b16a92
+
+
+social_links:
+  - title: Send me an email
+    type: envelope
+    href: "mailto:ismaambrosi@gmail.com"
+    footer: true
+
+  - title: Linkedin
+    type: linkedin
+    href: http://www.linkedin.com/in/ismaelambrosi
+    external: true
+
+  - title: Github
+    type: github
+    href: http://github.com/iambrosi
+    external: true
+    footer: true
+
+  - title: Twitter
+    type: twitter
+    href: http://twitter.com/iambrosi
+    external: true
+    footer: true
+
+  - title: Instagram
+    type: instagram
+    href: http://instagram.com/iambrosi
+    external: true
+
+  # - title: Flickr
+  #   type: flickr
+  #   href: https://www.flickr.com/photos/ismaelambrosi
+  #   external: true
+
+  # - title: Google Plus
+  #   type: google-plus
+  #   href: https://plus.google.com/+IsmaelAmbrosi/about
+  #   external: true

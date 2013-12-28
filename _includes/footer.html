@@ -1,0 +1,21 @@
+<footer>
+    <hr/>
+    <div class="row">
+        <div class="col-md-6 col-sm-3 col-xs-3">
+            <div class="row">
+                {% assign social_links=site.social_links | where:"footer", true %}
+                {% for link in social_links %}
+                <div class="col-sm-1 col-xs-1">
+                    <a href="{{ link.href }}" {% if link.external %}target="_blank" {% endif %} title="{{ link.title }}">
+                        <i class="fa fa-{{ link.type }}-square"></i>
+                    </a>
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+        <div class="col-md-6 col-sm-9 col-xs-9 text-right">
+            &copy; {{ site.time | date: '%Y' }} {{ site.me.name }}.
+            Powered by <a href="http://jekyllrb.com">Jekyll</a>.
+        </div>
+    </div>
+</footer>

@@ -1,0 +1,9 @@
+---
+layout: default
+---
+
+<ul class="list-unstyled">
+    {% for post in site.posts %}
+    {% include post-link.html post=post %}
+    {% endfor %}
+</ul>

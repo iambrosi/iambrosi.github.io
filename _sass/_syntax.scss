@@ -1,0 +1,11 @@
+.highlight {
+  overflow: auto;
+
+  pre {
+    min-width: 520px;
+
+    code {
+        font-family: monospace, monospace !important;
+    }
+  }
+}

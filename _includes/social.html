@@ -1,0 +1,9 @@
+{% assign social_links=site.social_links | where:"external", true %}
+
+<div class="row">
+    {% for link in social_links %}
+    <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6">
+        <a href="{{link.href}}" class="btn"><i class="fa fa-{{ link.type }} fa-2x"></i> {{link.title}}</a>
+    </div>
+    {% endfor %}
+</div>

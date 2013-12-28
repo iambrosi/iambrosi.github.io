@@ -1,0 +1,25 @@
+.size-24 {
+  font-size: 24px;
+}
+
+header {
+  a {
+    .block-link {
+      padding-top: 12px;
+    }
+  }
+}
+
+blockquote {
+  font-size: 14px;
+}
+
+.post {
+  margin-top: 20px;
+}
+
+@media (min-width: 768px) {
+    .small-bio {
+      margin-top: 40px;
+    }
+}

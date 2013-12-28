@@ -1,0 +1,25 @@
+<div class="small-bio text-center well well-sm">
+
+    <img src="http://www.gravatar.com/avatar/{{ site.me.gravatar }}.png?s=180" class="img-thumbnail" alt="Ismael Ambrosi"/>
+
+    <div class="caption">
+        <h3>Ismael Ambrosi</h3>
+
+        <small>
+            Frontend Developer en VividCortex.
+            Co-organizador the la meetup de PHP Montevideo.
+            Organizador de la meetup de Symfony Uruguay.
+        </small>
+
+        <ul class="list-inline">
+            {% for link in site.social_links %}
+            <li>
+                <a class="btn" href="{{link.href}}" title="{{link.title}}">
+                    <i class="fa fa-{{ link.type }}"></i>
+                </a>
+            </li>
+            {% endfor %}
+
+        </ul>
+    </div>
+</div>

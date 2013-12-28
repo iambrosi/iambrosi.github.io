@@ -1,0 +1,83 @@
+.highlight {
+    pre { background-color: #202020; color: #EEEEEE; }
+
+    .c { color: #008800; font-style: italic; } /* Comment */
+    .err { color: #ffffff } /* Error */
+    .g { color: #ffffff } /* Generic */
+    .k { color: #CC7832; font-weight: bold } /* Keyword */
+    .l { color: #ffffff } /* Literal */
+    .n { color: #ffffff } /* Name */
+    .o { color: #ffffff } /* Operator */
+    .x { color: #ffffff } /* Other */
+    .p { color: #ffffff } /* Punctuation */
+    .cm { color: #008800; font-style: italic; } /* Comment.Multiline */
+    .cp { color: #CC7832; font-weight: bold; } /* Comment.Preproc */
+    .c1 { color: #808080; font-style: italic; } /* Comment.Single */
+    .cs { color: #008800; font-style: italic; } /* Comment.Special */
+    .gd { color: #ffffff } /* Generic.Deleted */
+    .ge { color: #ffffff } /* Generic.Emph */
+    .gr { color: #aa0000 } /* Generic.Error */
+    .gh { color: #ffffff; font-weight: bold } /* Generic.Heading */
+    .gi { color: #ffffff } /* Generic.Inserted */
+    .go { color: #444444; background-color: #222222 } /* Generic.Output */
+    .gp { color: #ffffff } /* Generic.Prompt */
+    .gs { color: #ffffff } /* Generic.Strong */
+    .gu { color: #ffffff; font-weight: bold } /* Generic.Subheading */
+    .gt { color: #ffffff } /* Generic.Traceback */
+    .kc { color: #fb660a; font-weight: bold } /* Keyword.Constant */
+    .kd { color: #fb660a; font-weight: bold } /* Keyword.Declaration */
+    .kn { color: #fb660a; font-weight: bold } /* Keyword.Namespace */
+    .kp { color: #fb660a } /* Keyword.Pseudo */
+    .kr { color: #fb660a; font-weight: bold } /* Keyword.Reserved */
+    .kt { color: #cdcaa9; font-weight: bold } /* Keyword.Type */
+    .ld { color: #ffffff } /* Literal.Date */
+    .m { color: #0086f7; font-weight: bold } /* Literal.Number */
+    .s { color: #A5C261 } /* Literal.String */
+    .na { color: #FFC66D; font-weight: bold } /* Name.Attribute */
+    .nb { color: #ffffff } /* Name.Builtin */
+    .nc { color: #EEEEEE } /* Name.Class */
+    .no { color: #A9B7C6 } /* Name.Constant */
+    .nd { color: #ffffff } /* Name.Decorator */
+    .ni { color: #ffffff } /* Name.Entity */
+    .ne { color: #ffffff } /* Name.Exception */
+    .nf { color: #FFC66D; font-weight: bold } /* Name.Function */
+    .nl { color: #ffffff } /* Name.Label */
+    .nn { color: #EEEEEE } /* Name.Namespace */
+    .nx { color: #EEEEEE } /* Name.Other */
+    .py { color: #EEEEEE } /* Name.Property */
+    .nt { color: #CC7832; font-weight: bold } /* Name.Tag */
+    .nv { color: #9876AA } /* Name.Variable */
+    .ow { color: #ffffff } /* Operator.Word */
+    .w { color: #888888 } /* Text.Whitespace */
+    .mf { color: #6897BB; font-weight: bold } /* Literal.Number.Float */
+    .mh { color: #6897BB; font-weight: bold } /* Literal.Number.Hex */
+    .mi { color: #6897BB; font-weight: bold } /* Literal.Number.Integer */
+    .mo { color: #6897BB; font-weight: bold } /* Literal.Number.Oct */
+    .sb { color: #A5C25C } /* Literal.String.Backtick */
+    .sc { color: #0086d2 } /* Literal.String.Char */
+    .sd { color: #629755 } /* Literal.String.Doc */
+    .s2 { color: #6A8759 } /* Literal.String.Double */
+    .se { color: #CC7832 } /* Literal.String.Escape */
+    .sh { color: #0086d2 } /* Literal.String.Heredoc */
+    .si { color: #EEEEEE } /* Literal.String.Interpol */
+    .sx { color: #0086d2 } /* Literal.String.Other */
+    .sr { color: #0086d2 } /* Literal.String.Regex */
+    .s1 { color: #6A8759 } /* Literal.String.Single */
+    .ss { color: #0086d2 } /* Literal.String.Symbol */
+    .bp { color: #ffffff } /* Name.Builtin.Pseudo */
+    .vc { color: #fb660a } /* Name.Variable.Class */
+    .vg { color: #fb660a } /* Name.Variable.Global */
+    .vi { color: #fb660a } /* Name.Variable.Instance */
+    .il { color: #0086f7; font-weight: bold } /* Literal.Number.Integer.Long */
+
+    .language {
+        &-xml {
+            .na { color: #BABABA; }
+        }
+        &-yaml {
+            .c1 { color: #B729D9; font-style: italic; }
+            .s { color: #FFC66D !important; }
+            .nv { color: #fff; }
+        }
+    }
+}
