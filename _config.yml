@@ -1,5 +1,5 @@
 name:      Ismael Ambrosi
-sub_title: Estaba aburrido y me armé blog.
+sub_title: Estaba aburrido y me armé un blog.
 
 safe:        true
 permalink:   /blog/:year/:month/:day/:title/
