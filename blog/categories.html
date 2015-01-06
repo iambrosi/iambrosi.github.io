@@ -1,0 +1,17 @@
+---
+layout: default
+title: Artículos por categoría
+---
+
+
+{% for category in site.categories %}
+<h3>{{ category[0]|capitalize }}</h3>
+
+
+<ul class="list-unstyled">
+    {% for post in category[1] %}
+    {% include post-link.html post=post %}
+    {% endfor %}
+</ul>
+
+{% endfor %}
