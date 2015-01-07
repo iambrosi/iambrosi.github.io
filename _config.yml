@@ -54,3 +54,18 @@ social_links:
   #   type: google-plus
   #   href: https://plus.google.com/+IsmaelAmbrosi/about
   #   external: true
+
+
+defaults:
+  -
+    scope:
+      path: _posts/es
+    values:
+      layout: default
+      lang: es
+  -
+    scope:
+      path: _posts/en
+    values:
+      layout: default
+      lang: en
