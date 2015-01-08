@@ -3,7 +3,7 @@
     <div class="row">
         <div class="col-md-6 col-sm-3 col-xs-3">
             <div class="row">
-                {% assign social_links=site.social_links | where:"footer", true %}
+                {% assign social_links=site.data.social | where:"footer", true %}
                 {% for link in social_links %}
                 <div class="col-sm-1 col-xs-1">
                     <a href="{{ link.href }}" {% if link.external %}target="_blank" {% endif %} title="{{ link.title }}">

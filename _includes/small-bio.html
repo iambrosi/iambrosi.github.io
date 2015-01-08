@@ -12,7 +12,7 @@
         </small>
 
         <ul class="list-inline">
-            {% for link in site.social_links %}
+            {% for link in site.data.social %}
             <li>
                 <a class="btn btn-link" href="{{link.href}}" title="{{link.title}}">
                     <i class="fa fa-{{ link.type }}"></i>

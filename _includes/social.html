@@ -1,4 +1,4 @@
-{% assign social_links=site.social_links | where:"external", true %}
+{% assign social_links=site.data.social | where:"external", true %}
 
 <div class="row">
     {% for link in social_links %}
