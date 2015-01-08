@@ -1,5 +1,6 @@
 name:      Ismael Ambrosi
 sub_title: Estaba aburrido y me armé un blog.
+url:       http://iambrosi.github.io
 
 safe:        true
 permalink:   /blog/:year/:month/:day/:title/
