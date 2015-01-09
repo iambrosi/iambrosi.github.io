@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Sobre mi
-permalink: /about/index.html
+permalink: /about/
 ---
 
 Mi nombre es Ismael Ambrosi y vivo en Montevideo, Uruguay. Desde el 2006 trabajo como programador web, lo cual es mi pasión y me siento un afortunado de poder trabajar de algo que me fascina.
