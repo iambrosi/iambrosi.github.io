@@ -2,7 +2,6 @@ name:      Ismael Ambrosi
 sub_title: Estaba aburrido y me armé un blog.
 url:       http://iambrosi.github.io
 
-safe:        true
 permalink:   /blog/:year/:month/:day/:title/
 highlighter: pygments
 markdown:    redcarpet
@@ -17,6 +16,9 @@ me:
   twitter:   iambrosi
   instagram: iambrosi
   gravatar:  1fe25dce85a62c717339dfd864b16a92
+
+gems:
+  - jekyll-sitemap
 
 defaults:
   -
