@@ -1,7 +1,7 @@
 {% assign post=include.post %}
 
 <li>
-    <small>{{ post.date | date: '%d %b, %Y' }} &raquo;</small>
+    <small>{{ post.date | date: '%d %b, %Y' }} <i class="fa fa-angle-double-right"></i></small>
     <a href="{{ post.url }}"><strong>{{ post.title }}</strong></a>
 
     <p>{{ post.excerpt | strip_html }}</p>
