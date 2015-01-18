@@ -8,9 +8,20 @@
     <meta name="twitter:creator" content="@{{ site.me.twitter }}">
     <meta name="twitter:title" content="{{ page.title }}">
     <meta name="twitter:description" content="{{ page.description }}">
+
+    <meta property="og:title" content="{{ page.title }}"/>
+    <meta property="og:description" content="{{ page.description }}"/>
+    <meta property="og:type" content="article"/>
+    <meta property="og:url" content="{{ site.url }}{{ page.url }}"/>
+    <meta property="og:site_name" content="{{ site.name }}"/>
     {% else %}
     <title>{{ site.name }}</title>
+
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="{{ site.url }}"/>
     {% endif %}
+    <meta property="og:site_name" content="{{ site.name }}"/>
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!-- Custom CSS -->
