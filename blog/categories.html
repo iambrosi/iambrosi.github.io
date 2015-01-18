@@ -5,13 +5,15 @@ title: Artículos por categoría
 
 
 {% for category in site.categories %}
+
+{% assign posts=category[1] | where:"lang", page.lang %}
+
+{% if posts.size > 0 %}
 <h3>{{ category[0]|capitalize }}</h3>
 
+{% for post in posts %}
+{% include post-link.html post=post %}
+{% endfor %}
 
-<ul class="list-unstyled">
-    {% for post in category[1] %}
-    {% include post-link.html post=post %}
-    {% endfor %}
-</ul>
-
+{% endif %}
 {% endfor %}

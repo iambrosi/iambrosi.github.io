@@ -2,6 +2,7 @@
 layout: default
 ---
 
-    {% for post in site.posts %}
-    {% include post-link.html post=post %}
-    {% endfor %}
+{% assign posts=site.posts | where:"lang", page.lang %}
+{% for post in posts %}
+{% include post-link.html post=post %}
+{% endfor %}
