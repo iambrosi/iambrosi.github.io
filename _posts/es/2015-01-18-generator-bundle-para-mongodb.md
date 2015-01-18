@@ -23,7 +23,7 @@ _Puedes encontrar este bundle en su [**repositorio** en Github][repo]._
 
 ### Más información
 
-En el archivo [README](https://github.com/iambrosi/IsmaAmbrosiGeneratorBundle/blob/master/README.md) se pueden encontrar más datos e instrucciones de instalación.
+En el archivo [README](https://github.com/iambrosi/IsmaAmbrosiGeneratorBundle/blob/master/README.md) se pueden encontrar más datos e instrucciones de instalación. Y por supuesto, todos son bienvenidos a colaborar.
 
 
 [class-metadata]: http://www.doctrine-project.org/api/common/2.2/class-Doctrine.Common.Persistence.Mapping.ClassMetadata.html "Doctrine\Common\Persistence\Mapping\ClassMetadata"
