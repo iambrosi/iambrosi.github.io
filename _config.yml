@@ -23,6 +23,11 @@ gems:
 defaults:
   -
     scope:
+      path: ""
+    values:
+      lang: es
+  -
+    scope:
       path: _posts/es
     values:
       layout: default
