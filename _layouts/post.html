@@ -34,8 +34,12 @@ layout: default
     <i class="fa fa-info-circle"></i>
 
     {% capture edit_link %}https://github.com/{{ site.me.github }}/iambrosi.github.io/edit/master/_posts/{{ page.lang }}/{{ page.url | remove_first:'/blog/' | replace_first:'/','-' | replace_first:'/','-' | replace_first:'/','-' | remove:'/' }}.md{% endcapture %}
-    
+
+    {% if page.lang == 'en' %}
+    If you found a typo, you can <a href="{{ edit_link }}" class="alert-link"> fork and edit this article</a>. I will be very grateful.
+    {% else %}
     Si has encontrado un error, puedes <a href="{{ edit_link }}" class="alert-link"> hacer un fork y editar este artículo</a>. Te estaré muy agradecido.
+    {% endif %}
 </div>
 
 <!-- DISQUS -->
