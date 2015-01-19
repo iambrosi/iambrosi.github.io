@@ -2,9 +2,26 @@
 layout: default
 ---
 
-<p class="meta">
-    <i class="fa fa-calendar"></i>
-    {{ page.date | date_to_string }}
+<p class="row">
+    <div class="col-md-9 col-sm-8 col-xs-6">
+        {% if page.date %}
+        <i class="fa fa-calendar"></i>
+        {{ page.date | date_to_string }}
+        {% endif %}
+    </div>
+
+    {% assign posts=site.posts | where:"name", page.name | sort: 'path' %}
+    {% if posts.size > 1 %}
+    <div class="col-md-3 col-sm-4 col-xs-6 text-right">
+        <div class="btn-group" role="group">
+            {% for post in posts %}
+            {% if post.lang != page.lang %}
+            <a href="{{ post.url }}">{{ site.data.t[post.lang].post_lang_version }}</a>
+            {% endif %}
+            {% endfor %}
+        </div>
+    </div>
+    {% endif %}
 </p>
 
 <div class="post">
