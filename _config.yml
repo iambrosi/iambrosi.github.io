@@ -6,7 +6,7 @@ permalink:   /blog/:year/:month/:day/:title/
 highlighter: pygments
 markdown:    redcarpet
 include:     [_pages]
-exclude:     [ README.md, Gemfile ]
+exclude:     [ README.md, Gemfile, vendor ]
 
 me:
   name:      Ismael Ambrosi
