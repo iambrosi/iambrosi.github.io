@@ -2,7 +2,9 @@ es:
   subtitle: Estaba aburrido y me armé un blog
   bio: Frontend Developer en VividCortex. Co-organizador de la meetup de PHP Montevideo. Organizador de la meetup de Symfony Uruguay.
   post_lang_version: Versión en español
+  lang_name: Español
 en:
   subtitle: Welcome to my blog
   bio: Frontend Developer at VividCortex. Co-organizer of the "PHP Montevideo" meetup. Organizer of the Symfony Uruguay meetup.
   post_lang_version: English version
+  lang_name: English
