@@ -1,9 +1,9 @@
 {% assign post=include.post %}
 
 <div class="panel panel-default">
-    <div class="panel-heading">
-        <small>{{ post.date | date: '%d %b, %Y' }} <i class="fa fa-angle-double-right"></i></small>
-        <a href="{{ post.url }}"><strong>{{ post.title }}</strong></a>
+    <div class="panel-heading clearfix">
+        <small class="pull-right"> <i class="fa fa-angle-double-left"></i> {{ post.date | date: '%d %b, %Y' }}</small>
+        <h3 class="panel-title pull-left"><a href="{{ post.url }}">{{ post.title }}</a></h3>
         {% if post.lang != page.lang %}
         &nbsp;
         <small class="text-muted">{{ site.data.t[post.lang].lang_name|downcase }}</small>
