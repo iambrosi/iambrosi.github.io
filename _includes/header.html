@@ -13,14 +13,20 @@
 
     <div class="navbar-collapse collapse navbar-responsive-collapse" id="top-menu-collapse">
         <ul class="nav navbar-nav navbar-right">
+            {% for item in site.data.menu[page.lang] %}
+            {% if item.link %}
+            <li><a href="{{ item.link }}">{{ item.name }}</a></li>
+            {% elsif item.links  %}
             <li class="dropdown">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Blog <span class="caret"></span></a>
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">{{ item.name }} <span class="caret"></span></a>
                 <ul class="dropdown-menu" role="menu">
-                    <li><a href="/blog/">Artículos</a></li>
-                    <li><a href="/blog/categories.html">Categorías</a></li>
+                    {% for sub_item in item.links %}
+                    <li><a href="{{ sub_item.link }}">{{ sub_item.name }}</a></li>
+                    {% endfor %}
                 </ul>
             </li>
-            <li><a href="/about/">Sobre mi</a></li>
+            {% endif %}
+            {% endfor %}
         </ul>
     </div>
 </nav>
