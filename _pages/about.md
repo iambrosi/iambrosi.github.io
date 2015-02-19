@@ -4,18 +4,25 @@ title: Sobre mi
 permalink: /about/
 ---
 
-Mi nombre es Ismael Ambrosi y vivo en Montevideo, Uruguay. Desde el 2006 trabajo como programador web, lo cual es mi pasión y me siento un afortunado de poder trabajar de algo que me fascina.
-Mis principales herramientas son [Symfony][symfony] y [AngularJS][angularjs], para PHP y JavaScript respectivamente.
+Mi nombre es Ismael Ambrosi y vivo en Montevideo, Uruguay. Desde el 2006 trabajo
+como programador web, lo cual es mi pasión y me siento un afortunado de poder
+trabajar de algo que me fascina.
+Mis principales herramientas son [Symfony][symfony] y [AngularJS][angularjs],
+para PHP y JavaScript respectivamente.
 
-Trabajo como _Frontend Developer_ en [VividCortex][vividcortex], una _startup_ ubicada en Virginia, Estados Unidos. Precisamente en Charlottesville.
+Trabajo como _Frontend Developer_ en [VividCortex][vividcortex], una _startup_
+ubicada en Virginia, Estados Unidos. Precisamente en Charlottesville.
 
-También me gusta participar de eventos y promover las comunidades.
-En el 2014 tuve la suerte de poder involucrarme más y pase a ser co-organizador
-de la meetup de PHP en Montevideo y cree el grupo de usuarios de Symfony en
-Uruguay.
-Por último, ayudé a los
-organizadores de la [TechMeetup][techmeetup] en lo que fue la tercera edición de
-la conferencia. Esto fue para mi una experiencia espectacular.
+Siempre investigando y buscando nuevas tecnologías y desarrollo personal. Una
+vez me dijeron que soy un "testing freak", en broma por supuesto, pero no muy
+alejado de la realidad :) Si, me gusta testear mi código y siempre trato de
+alentar a los demás a que hagan lo mismo.
+
+También me gusta participar de eventos y eventos de la comunidad. Co-organizador
+de la meetup de PHP en Montevideo y creador del grupo de usuarios de Symfony en
+Uruguay. Por último, también ayudo en lo que sea necesario a los organizadores
+de la [TechMeetup][techmeetup], desde la tercera edición de la conferencia. Esto
+ha sido para mi una experiencia espectacular.
 
 ---
 
