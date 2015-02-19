@@ -38,3 +38,8 @@ defaults:
     values:
       layout: default
       lang: en
+  -
+    scope:
+      path: _pages/en
+    values:
+      lang: en
