@@ -9,11 +9,11 @@ tags: ['introduction']
 
 [_IsmaAmbrosiGeneratorBundle_][repo] is an extension of the bundle [SensioGeneratorBundle](https://github.com/sensiolabs/SensioGeneratorBundle) for [Symfony](http://symfony.com) applications that allows to generate _documents_, _forms_ and _CRUD_ controllers to manage those MongoDB documents.
 
-_The bundle SensioGeneratorBundle it's included by default in the standard edition of the Symfony framework. You can find more information at the [official documentation](http://symfony.com/doc/master/bundles/SensioGeneratorBundle/index.html)._
+_The bundle __SensioGeneratorBundle__ is included by default in the standard edition of the Symfony framework. You can find more information at the [official documentation](http://symfony.com/doc/master/bundles/SensioGeneratorBundle/index.html) page._
 
 It provides interactive commands that let you generate code, with some help of the Doctrine's [mongodb-odm](https://github.com/doctrine/mongodb-odm) library.
 
-I started working on this bundle a few years ago, but I don't know why, I never made an announcement of its existance. I should have done it a long time ago.
+I started working on this bundle a few years ago, but I don't know why, I never made an official announcement. I should have done it a long time ago.
 
 It all started when I was working at ServerGrove, and MongoDB was the main database engine... and it was great. Symonfy2 was just showing up, its stable version hadn't been released yet, but it worked great for us.
 
