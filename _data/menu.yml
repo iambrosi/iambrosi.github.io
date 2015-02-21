@@ -2,7 +2,7 @@ es:
   - name: Blog
     links:
       - name: Artículos
-        link: /blog/es/
+        link: /blog/
       - name: Categorías
         link: /blog/categories.html
   - name: Sobre mi
@@ -12,7 +12,7 @@ en:
   - name: Blog
     links:
       - name: Posts
-        link: /en/blog/
+        link: /blog/en/
       - name: Categories
         link: /blog/en/categories.html
   - name: About
