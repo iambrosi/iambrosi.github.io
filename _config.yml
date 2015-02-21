@@ -43,3 +43,8 @@ defaults:
       path: _pages/en
     values:
       lang: en
+  -
+    scope:
+      path: blog/en
+    values:
+      lang: en

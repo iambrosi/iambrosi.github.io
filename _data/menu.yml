@@ -4,7 +4,7 @@ es:
       - name: Artículos
         link: /blog/es/
       - name: Categorías
-        link: /blog/es/categories/
+        link: /blog/categories.html
   - name: Sobre mi
     link: /about/
 
@@ -14,6 +14,6 @@ en:
       - name: Posts
         link: /en/blog/
       - name: Categories
-        link: /blog/en/categories/
+        link: /blog/en/categories.html
   - name: About
     link: /en/about/
