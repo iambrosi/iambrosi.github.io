@@ -1,4 +1,4 @@
 ---
 layout: posts
-title: Últimos posts
+title: Posts
 ---

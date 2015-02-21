@@ -1,0 +1,19 @@
+es:
+  - name: Blog
+    links:
+      - name: Artículos
+        link: /blog/
+      - name: Categorías
+        link: /blog/categories.html
+  - name: Sobre mi
+    link: /about/
+
+en:
+  - name: Blog
+    links:
+      - name: Posts
+        link: /blog/en/
+      - name: Categories
+        link: /blog/en/categories.html
+  - name: About
+    link: /en/about/
