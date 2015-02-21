@@ -16,7 +16,7 @@ layout: default
         <div class="btn-group" role="group">
             {% for post in posts %}
             {% if post.lang != page.lang %}
-            <a href="{{ post.url }}">{{ site.data.t[post.lang].post_lang_version }}</a>
+            <a href="{{ post.url }}">{{ site.data.t[post.lang].post_lang_version }} <i class="fa fa-language"></i></a>
             {% endif %}
             {% endfor %}
         </div>
