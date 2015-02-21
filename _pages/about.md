@@ -18,7 +18,7 @@ vez me dijeron que soy un "testing freak", en broma por supuesto, pero no muy
 alejado de la realidad :) Si, me gusta testear mi código y siempre trato de
 alentar a los demás a que hagan lo mismo.
 
-También me gusta participar de eventos y eventos de la comunidad. Co-organizador
+También me gusta participar de meetups y eventos de la comunidad. Co-organizador
 de la meetup de PHP en Montevideo y creador del grupo de usuarios de Symfony en
 Uruguay. Por último, también ayudo en lo que sea necesario a los organizadores
 de la [TechMeetup][techmeetup], desde la tercera edición de la conferencia. Esto
