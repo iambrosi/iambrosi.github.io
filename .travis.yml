@@ -3,7 +3,7 @@ language: ruby
 rvm:
   - 2.1
 
-script: bundle exec jekyll build && bundle exec htmlproof --href_ignore '#' ./_site
+script: bundle exec jekyll build && bundle exec htmlproof --href-ignore '#' ./_site
 
 env:
   global:
