@@ -4,9 +4,12 @@ url:       http://iambrosi.github.io
 
 permalink:   /blog/:year/:month/:day/:title/
 highlighter: pygments
-markdown:    redcarpet
+markdown:    kramdown
 include:     [_pages]
 exclude:     [ README.md, Gemfile, vendor ]
+
+kramdown:
+  input: GFM
 
 me:
   name:      Ismael Ambrosi
