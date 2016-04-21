@@ -3,13 +3,9 @@ sub_title: Estaba aburrido y me armé un blog.
 url:       http://iambrosi.github.io
 
 permalink:   /blog/:year/:month/:day/:title/
-highlighter: pygments
 markdown:    kramdown
 include:     [_pages]
 exclude:     [ README.md, Gemfile, vendor ]
-
-kramdown:
-  input: GFM
 
 me:
   name:      Ismael Ambrosi
