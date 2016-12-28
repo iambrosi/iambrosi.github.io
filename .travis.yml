@@ -1,9 +1,9 @@
 language: ruby
 
 rvm:
-  - 2.1
+  - 2.2.5
 
-script: bundle exec jekyll build && bundle exec htmlproofer --disable-external --allow-hash-href ./_site
+script: bundle exec jekyll build && bundle exec htmlproofer --check-html --disable-external --allow-hash-href ./_site
 
 env:
   global:
